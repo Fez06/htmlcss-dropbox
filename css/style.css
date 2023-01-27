@@ -13,8 +13,9 @@ body {
 -----------COMMON-----
 @@@@@
 */
-header, .col-sx ul, .col-dx ul, .row
- {
+header, .col-sx ul,
+ .col-dx ul, .row,
+ .business .col-planes {
     display: flex;
 }
 
@@ -53,6 +54,7 @@ header {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 777;
 }
 
 header ul {
@@ -130,6 +132,32 @@ h1 {
     margin: auto;
 }
 
+.business h3 {
+    padding-bottom: 70px;
+}
+
+.col-planes > div {
+    padding: 50px 0;
+}
+
+label {
+    padding-right: 50px;
+}
+
+.col-planes {
+    justify-content: space-between;
+}
+
+.col-planes > div {
+    width: calc(100% / 3 - 100px);
+    text-align: center;
+    gap: 0 50px;
+    border: 1px solid #d0d0d3;
+}
+
+.col-header {
+    border-bottom: 1px solid #d0d0d3;
+}
 /* 
 @@@@@
 -----------MAIN FINE-----
