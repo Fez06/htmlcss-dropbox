@@ -23,7 +23,7 @@ ul {
 }
 
 .btn {
-    padding: 5px 10px;
+    padding: 7px 10px;
     border: none;
     font-family: inherit;
     width: fit-content;
@@ -49,11 +49,19 @@ header {
     justify-content: space-between;
     padding: 0 20px;
     background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 header ul {
     align-items: center;
     gap: 40px;
+}
+
+h3 {
+    font-size: 30px;
 }
 /* 
 @@@@@
@@ -112,8 +120,15 @@ h1 {
     font-size: 40px;
     padding-top: 10px;
 }
-/* ----seconda sezione */
+/* @@@
+----seconda sezione
+@@@ */
 
+.business {
+    padding-top: 150px;
+    max-width: 1000px;
+    margin: auto;
+}
 
 /* 
 @@@@@
