@@ -9,13 +9,19 @@
 -----------COMMON-----
 @@@@@
 */
-
+header {
+    display: flex;
+}
 /* 
 @@@@@
 -----------HEADER INIZIO-----
 @@@@@
 */
-
+header {
+    height: 80px;
+    align-items: center;
+    padding: 0 20px;
+}
 /* 
 @@@@@
 -----------HEADER FINE-----
