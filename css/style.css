@@ -4,13 +4,30 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: blanchedalmond;
+}
 /* 
 @@@@@
 -----------COMMON-----
 @@@@@
 */
-header {
+header, .col-sx ul, .col-dx ul {
     display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.btn {
+    padding: 5px 10px;
+    border: none;
+    font-family: inherit;
+}
+
+.blu-btn {
+    background-color: #0061ff;
 }
 /* 
 @@@@@
@@ -20,7 +37,14 @@ header {
 header {
     height: 80px;
     align-items: center;
+    justify-content: space-between;
     padding: 0 20px;
+    background-color: white;
+}
+
+header ul {
+    align-items: center;
+    gap: 40px;
 }
 /* 
 @@@@@
