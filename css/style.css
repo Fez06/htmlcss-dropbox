@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: blanchedalmond;
+    background-color: rgb(193, 180, 159);
 }
 /* 
 @@@@@
@@ -24,7 +24,7 @@ ul {
 }
 
 .btn {
-    padding: 7px 10px;
+    padding: 7px 25px;
     border: none;
     font-family: inherit;
     width: fit-content;
@@ -114,7 +114,6 @@ h1 {
 .jumbo .col-sx {
     display: flex;
     flex-direction: column;
-    justify-content:;
     gap: 40px 0;
 }
 
@@ -136,16 +135,20 @@ h1 {
     padding-bottom: 70px;
 }
 
-.col-planes > div {
-    padding: 50px 0;
-}
-
 label {
     padding-right: 50px;
 }
 
+.factur-type {
+    padding-bottom: 50px;
+}
+
 .col-planes {
     justify-content: space-between;
+}
+
+.col-main h2 {
+    padding: 40px 0 25px 0;
 }
 
 .col-planes > div {
@@ -157,9 +160,62 @@ label {
 
 .col-header {
     border-bottom: 1px solid #d0d0d3;
+    padding: 10px;
 }
 
+.col-main .plane-feat li {
+    padding: 25px 0;
+}
 
+.period {
+    padding-bottom: 60px;
+}
+
+.col-main {
+    text-align: left;
+    padding-left: 25px;
+}
+
+.plane-feat li, .vantaggi li{
+    display: flex;
+    gap: 5px;
+}
+
+.col-main button {
+    margin: 25px 0 45px 0;
+}
+
+.or-buy {
+    padding-bottom: 40px;
+}
+
+.vantaggi ul li:first-child {
+    margin-top: 15px;
+}
+
+.vantaggi li {
+    padding: 25px 0;
+}
+
+hr {
+    width: 20%;
+    margin-bottom: 25px;
+    color: #d0d0d3;
+}
+
+.col-uno .vantaggi ul li:nth-last-child(1),
+.col-uno .vantaggi ul li:nth-last-child(2), 
+.col-uno .vantaggi ul li:nth-last-child(3) {
+    visibility: hidden;
+}  
+
+/* --------seconda colonna */
+
+/* --------terza colonna */
+.col-tre .vantaggi ul li:nth-last-child(1),
+.col-tre .vantaggi ul li:nth-last-child(2) {
+    visibility: hidden;
+}  
 /* 
 @@@@@
 -----------MAIN FINE-----
