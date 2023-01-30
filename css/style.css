@@ -154,9 +154,8 @@ label {
 }
 
 .col-planes > div {
-    width: calc(100% / 3 - 100px);
+    width: calc(100% / 3);
     text-align: center;
-    gap: 0 50px;
     border: 1px solid #d0d0d3;
 }
 
@@ -410,6 +409,24 @@ hr {
 .row, .container, .esperimento {
     padding: 130px 0;
 }
+
+/* -------- sezione faq  */
+
+.faq hr {
+    width: 100%;
+}
+
+.faq div,i {
+    display: inline-block;
+}
+
+.faq i {
+    text-align: right;
+}
+
+.question {
+    width: 100%;
+}
 /* 
 @@@@@
 -----------MAIN FINE-----
@@ -421,7 +438,23 @@ hr {
 -----------FOOTER INIZIO-----
 @@@@@
 */
+footer {
+    background-color: black;
+    width: 100vw;
+    margin: auto;
+}
 
+.large-box {
+    max-width: 1220px;
+    display: flex;
+    margin: auto;
+    padding: 100px 0;
+    justify-content: space-around;
+}
+
+.end-info {
+    width: calc(100% /5);
+}
 /* 
 @@@@@
 -----------FOOTER FINE-----
