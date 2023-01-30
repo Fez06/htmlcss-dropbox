@@ -259,8 +259,42 @@ hr {
 
 /* -------- sezione features  */
 
+.features {
+    padding: 170px 0 50px;
+    max-width: 1000px;
+    margin: auto;
+}
 
+.feat-row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.operazione {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% / 3);
+    padding-bottom: 50px;
+}
+
+.features h2 {
+    padding-bottom: 70px;
+}
+
+.operazione * {
+    padding-bottom: 20px;
+}
+
+/* -------- sezione clienti  */
+
+.clienti .intestazione {
+    padding-bottom: 150px;
+    max-width: 600px;
+}
+
+.clienti .intestazione h2 {
+    padding-bottom: 80px;
+}
 /* 
 @@@@@
 -----------MAIN FINE-----
