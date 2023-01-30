@@ -253,7 +253,8 @@ hr {
     padding: 30px 0;
 }
 
-.contact button {
+.contact button,
+.free-trial button{
     border: 1px solid black;
 }
 
@@ -309,7 +310,8 @@ hr {
 }
 
 .square-clienti img {
-    width: 40%;
+    width: 50%;
+    filter: invert(100%);
 }
 
 .box-sx, .box-dx {
@@ -320,11 +322,12 @@ hr {
 .big-square {
     display: flex;
     flex-direction: column;
-    gap: 50px;
     justify-content: space-around;
+    padding: 50px;
+    background-color: #f5f5f5;
 }
 
-.lit-square {
+.square-clienti .lit-square {
     height: 50%;
     width: 50%;
     display: flex;
@@ -334,6 +337,77 @@ hr {
 
 .fonte {
     padding-bottom: 240px;
+    padding-top: 50px;
+}
+
+.square-clienti .big-square img {
+    padding-bottom: 50px;
+}
+
+.square-clienti .review-cliente {
+    padding-top: 20px;
+}
+
+.box-sx .lit-square:first-child {
+    background-color: #a2d39b;
+}
+
+.box-sx .lit-square:nth-child(2) {
+    background-color: #61082b;
+}
+
+.box-sx .lit-square:nth-child(3) {
+    background-color: #0093ce;
+}
+
+.box-sx .lit-square:nth-child(4) {
+    background-color: #ff1c1c;
+}
+
+.box-dx .lit-square:first-child {
+    background-color: #d5001f;
+}
+
+.box-dx .lit-square:nth-child(2) {
+    background-color: #b4d0e7;
+}
+
+.box-dx .lit-square:nth-child(3) {
+    background-color: #0d2481;
+}
+
+.box-dx .lit-square:nth-child(4) {
+    background-color: #ffd830;
+}
+
+/* -------- sezione sotto square  */
+
+.free-trial {
+    background-color: #b4d0e7;
+}
+.free-trial .row {
+    justify-content: space-between;
+}
+
+
+.free-trial button {
+   max-height: 50px; 
+   padding-left: 80px;
+   padding-right: 80px;
+}
+
+.free-trial h2 {
+    width: 60%;
+    font-size: 30px;
+    color: #61082b;
+}
+
+.esperimento div {
+    display: flex;
+}
+
+.row, .container, .esperimento {
+    padding: 130px 0;
 }
 /* 
 @@@@@
