@@ -295,6 +295,46 @@ hr {
 .clienti .intestazione h2 {
     padding-bottom: 80px;
 }
+
+/* -------- sezione blocchi loghi  */
+
+.square-clienti {
+    width: 100%;
+    display: flex;
+    max-height: 650px;
+}
+
+.square-clienti > div {
+    width: calc(100% / 3);
+}
+
+.square-clienti img {
+    width: 40%;
+}
+
+.box-sx, .box-dx {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.big-square {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: space-around;
+}
+
+.lit-square {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fonte {
+    padding-bottom: 240px;
+}
 /* 
 @@@@@
 -----------MAIN FINE-----
