@@ -36,14 +36,15 @@ ul {
     display: flex;
 }
 
-
+.spesso {
+    font-weight: bolder;
+}
 /* 
 @@@@@
 -----------HEADER INIZIO-----
 @@@@@
 */
 header {
-    max-height: 80px;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
@@ -64,7 +65,11 @@ h3 {
 }
 
 header li {
-    padding: 30px 20px;
+    padding: 29px 20px;
+}
+
+header li:hover {
+    border-bottom: 2px solid black;
 }
 /* 
 @@@@@
@@ -248,6 +253,10 @@ hr {
     padding: 30px 0 60px;
 }
 
+.enterprise h2 {
+    font-size: 40px;
+}
+
 /* -------- sezione entra in contatto */
 
 .contact .col-text {
@@ -262,6 +271,7 @@ hr {
 .contact button,
 .free-trial button{
     border: 1px solid black;
+    background-color: white;
 }
 
 /* -------- sezione features  */
@@ -282,10 +292,12 @@ hr {
     flex-direction: column;
     width: calc(100% / 3);
     padding-bottom: 50px;
+    padding: 10px;
 }
 
 .features h2 {
     padding-bottom: 70px;
+    font-size: 40px;
 }
 
 .operazione * {
@@ -301,6 +313,7 @@ hr {
 
 .clienti .intestazione h2 {
     padding-bottom: 80px;
+    font-size: 40px;
 }
 
 /* -------- sezione blocchi loghi  */
@@ -308,7 +321,6 @@ hr {
 .square-clienti {
     width: 100%;
     display: flex;
-    max-height: 650px;
 }
 
 .square-clienti > div {
@@ -316,9 +328,12 @@ hr {
     height: calc(100vw /3);
 }
 
+.square-clienti img:not(.big-img) {
+    filter: invert(100%);
+}
+
 .square-clienti img {
     width: 50%;
-    filter: invert(100%);
 }
 
 .box-sx, .box-dx {
@@ -387,7 +402,7 @@ hr {
     background-color: #ffd830;
 }
 
-/* -------- sezione sotto square  */
+/* -------- sezione free trial  */
 
 .free-trial {
     background-color: #b4d0e7;
@@ -412,7 +427,7 @@ hr {
     display: flex;
 }
 
-.row, .container, .esperimento {
+.esperimento {
     padding: 130px 0;
 }
 
@@ -420,19 +435,35 @@ hr {
 
 .faq hr {
     width: 100%;
+    margin: 0;
 }
 
-.faq div,i {
-    display: inline-block;
+.faq.container {
+    padding-bottom: 150px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .faq i {
-    text-align: right;
+    padding-right: 50px;
 }
 
 .question {
     width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
 }
+
+.faq.container h2 {
+    padding-bottom: 40px;
+    font-size: 40px;
+}
+
 /* 
 @@@@@
 -----------MAIN FINE-----
@@ -448,6 +479,7 @@ footer {
     background-color: black;
     width: 100vw;
     margin: auto;
+    color: white;
 }
 
 .large-box {
@@ -460,6 +492,13 @@ footer {
 
 .end-info {
     width: calc(100% /5);
+}
+
+footer h3 {
+    padding-bottom: 40px;
+}
+footer li {
+    padding-bottom: 20px;
 }
 /* 
 @@@@@
