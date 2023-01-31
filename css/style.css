@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* 
@@ -43,7 +43,7 @@ ul {
 @@@@@
 */
 header {
-    height: 80px;
+    max-height: 80px;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
@@ -57,11 +57,14 @@ header {
 
 header ul {
     align-items: center;
-    gap: 40px;
 }
 
 h3 {
     font-size: 30px;
+}
+
+header li {
+    padding: 30px 20px;
 }
 /* 
 @@@@@
@@ -76,7 +79,7 @@ h3 {
 */
 main {
     max-width: 100vw;
-    padding-top: 100px;
+    padding-top: 80px;
 }
 
 .first-section {
@@ -94,7 +97,7 @@ main {
 }
 
 .jumbo .col-sx {
-    max-width: 20%;
+    max-width: 30%;
     text-align: left;
 }
 img {
@@ -102,15 +105,15 @@ img {
 }
 
 h1 {
-    font-size: 50px;
-    letter-spacing: 10px;
+    font-size: 80px;
     text-align: left;
     padding-top: 100px;
+    letter-spacing: 2px;
 }
 
 .jumbo .row {
     position: relative;
-    top: 70px;
+    top: 90px;
 }
 
 .jumbo .col-sx {
@@ -135,6 +138,9 @@ h1 {
 
 .business h3 {
     padding-bottom: 70px;
+    padding-top: 60px;
+    letter-spacing: 2px;
+    font-size: 40px;
 }
 
 label {
@@ -154,7 +160,7 @@ label {
 }
 
 .col-planes > div {
-    width: calc(100% / 3);
+    width: 30%;
     text-align: center;
     border: 1px solid #d0d0d3;
 }
@@ -307,6 +313,7 @@ hr {
 
 .square-clienti > div {
     width: calc(100% / 3);
+    height: calc(100vw /3);
 }
 
 .square-clienti img {
@@ -388,7 +395,6 @@ hr {
 .free-trial .row {
     justify-content: space-between;
 }
-
 
 .free-trial button {
    max-height: 50px; 
