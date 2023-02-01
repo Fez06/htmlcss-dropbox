@@ -453,7 +453,7 @@ hr {
 }
 
 .faq i {
-    padding-right: 50px;
+    margin-right: 50px;
 }
 
 .question {
@@ -467,7 +467,26 @@ hr {
     padding-bottom: 40px;
     font-size: 40px;
 }
+/* -------- hover on faq  */
 
+.faq .question:hover {
+
+}
+
+.faq .question:hover .fa-solid {
+    transform: rotate(180deg);
+    transition: transform 0.15s;
+}
+
+.hiden {
+    max-width: 80%;
+    padding: 20px 0;
+    display: none;
+}
+
+.question:hover + .hiden{
+    display: block;
+}
 /* 
 @@@@@
 -----------MAIN FINE-----
