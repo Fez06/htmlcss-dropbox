@@ -11,9 +11,13 @@
 @@@@@
 */
 header, .col-sx ul,
- .col-dx ul, .row,
+ .col-dx ul, .col-sx, .col-dx, .row,
  .business .col-planes {
     display: flex;
+}
+
+.col-dx, .col-sx {
+    align-items: center;
 }
 
 ul {
