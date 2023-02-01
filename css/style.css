@@ -190,7 +190,7 @@ label {
 
 .col-main {
     text-align: left;
-    padding-left: 25px;
+    padding: 0 25px;
 }
 
 .plane-feat li, .vantaggi li{
@@ -514,6 +514,11 @@ footer {
     justify-content: space-around;
 }
 
+.footer-content {
+    max-width: 1220px;
+    margin: auto;
+}
+
 .end-info {
     width: calc(100% /5);
 }
@@ -521,9 +526,28 @@ footer {
 footer h3 {
     padding-bottom: 40px;
 }
+
 footer li {
     padding-bottom: 20px;
 }
+
+.footer hr {
+    margin: 0;
+}
+
+.footer-hr {
+    padding-bottom: 50px;
+}
+
+.language i:last-child {
+    position: relative;
+    top: 2px;
+}
+
+.language {
+    padding-bottom: 50px;
+}
+
 /* 
 @@@@@
 -----------FOOTER FINE-----
